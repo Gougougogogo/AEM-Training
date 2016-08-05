@@ -1,0 +1,9 @@
+com/thoughtworks/www/samples/services/impl/SimpleServiceImpl.class
+com/thoughtworks/www/samples/services/TimeProviderService.class
+com/thoughtworks/www/samples/servlets/ReferencedAssetsServlet.class
+com/thoughtworks/www/samples/services/impl/TimeProviderServiceImpl.class
+com/thoughtworks/www/samples/servlets/KxiTimeProviderServlet.class
+com/thoughtworks/www/samples/services/ScheduledLogger.class
+com/thoughtworks/www/samples/models/KxiButtonModel.class
+com/thoughtworks/www/samples/services/SimpleService.class
+com/thoughtworks/www/samples/models/HelloWorldModel.class

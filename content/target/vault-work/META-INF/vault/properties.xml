@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>TW AEM Foundation Content Package</comment>
+<entry key="createdBy">kxi</entry>
+<entry key="name">tw-aem-foundation-content</entry>
+<entry key="created">2016-08-05T17:07:30.131+0800</entry>
+<entry key="groupId">com.thoughtworks.www</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.thoughtworks.www</entry>
+<entry key="description">Thoughtworks AEM Foundation Project.</entry>
+<entry key="artifactId">tw-aem-foundation-content</entry>
+<entry key="path">/etc/packages/com.thoughtworks.www/tw-aem-foundation-content.zip</entry>
+</properties>

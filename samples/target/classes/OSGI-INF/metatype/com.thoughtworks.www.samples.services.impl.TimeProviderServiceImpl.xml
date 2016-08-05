@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.thoughtworks.www.samples.services.impl.TimeProviderServiceImpl">
+    <OCD id="com.thoughtworks.www.samples.services.impl.TimeProviderServiceImpl" name="%com.thoughtworks.www.samples.services.impl.TimeProviderServiceImpl.name" description="%com.thoughtworks.www.samples.services.impl.TimeProviderServiceImpl.description"/>
+    <Designate pid="com.thoughtworks.www.samples.services.impl.TimeProviderServiceImpl">
+        <Object ocdref="com.thoughtworks.www.samples.services.impl.TimeProviderServiceImpl"/>
+    </Designate>
+</metatype:MetaData>

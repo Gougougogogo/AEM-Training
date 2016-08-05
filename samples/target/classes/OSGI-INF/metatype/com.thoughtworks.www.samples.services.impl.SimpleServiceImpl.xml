@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.thoughtworks.www.samples.services.impl.SimpleServiceImpl">
+    <OCD id="com.thoughtworks.www.samples.services.impl.SimpleServiceImpl" name="%com.thoughtworks.www.samples.services.impl.SimpleServiceImpl.name" description="%com.thoughtworks.www.samples.services.impl.SimpleServiceImpl.description">
+        <AD id="service-name" type="String" default="my-sample" name="%com.thoughtworks.www.samples.services.impl.SimpleServiceImpl.service-name.name" description="%com.thoughtworks.www.samples.services.impl.SimpleServiceImpl.service-name.description"/>
+        <AD id="world" type="String" default="earth" name="%com.thoughtworks.www.samples.services.impl.SimpleServiceImpl.world.name" description="%com.thoughtworks.www.samples.services.impl.SimpleServiceImpl.world.description"/>
+    </OCD>
+    <Designate pid="com.thoughtworks.www.samples.services.impl.SimpleServiceImpl" factoryPid="com.thoughtworks.www.samples.services.impl.SimpleServiceImpl">
+        <Object ocdref="com.thoughtworks.www.samples.services.impl.SimpleServiceImpl"/>
+    </Designate>
+</metatype:MetaData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.0.0" localization="OSGI-INF/metatype/com.thoughtworks.www.samples.services.ScheduledLogger">
+    <OCD id="com.thoughtworks.www.samples.services.ScheduledLogger" name="%com.thoughtworks.www.samples.services.ScheduledLogger.name" description="%com.thoughtworks.www.samples.services.ScheduledLogger.description">
+        <AD id="scheduler.expression" type="String" default="*/30\ *\ *\ *\ *\ ?" name="%com.thoughtworks.www.samples.services.ScheduledLogger.scheduler.expression.name" description="%com.thoughtworks.www.samples.services.ScheduledLogger.scheduler.expression.description"/>
+        <AD id="myParameter" type="String" name="%com.thoughtworks.www.samples.services.ScheduledLogger.myParameter.name" description="%com.thoughtworks.www.samples.services.ScheduledLogger.myParameter.description"/>
+    </OCD>
+    <Designate pid="com.thoughtworks.www.samples.services.ScheduledLogger">
+        <Object ocdref="com.thoughtworks.www.samples.services.ScheduledLogger"/>
+    </Designate>
+</metatype:MetaData>

@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1470388049410
+Build-Jdk: 1.8.0_91
+Built-By: kxi
+Bundle-Description: Thoughtworks AEM Foundation Project.
+Bundle-DocURL: http://www.thoughtworks.com/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: TW AEM Foundation Samples
+Bundle-SymbolicName: com.thoughtworks.www.tw-aem-foundation-samples
+Bundle-Vendor: TW
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.thoughtworks.www.samples.servlets;version="1.0.0";us
+ es:="org.apache.sling.api,org.apache.sling.api.servlets",com.thoughtwor
+ ks.www.samples.models;version="1.0.0";uses:="javax.annotation,javax.inj
+ ect,org.apache.sling.api.resource,org.apache.sling.models.annotations",
+ com.thoughtworks.www.samples.services;version="1.0.0";uses:="org.apache
+ .sling.api.resource"
+Import-Package: com.day.cq.dam.api;version="[1.2,2)",com.day.cq.dam.comm
+ ons.util;version="[1.2,2)",com.thoughtworks.www.samples.services;versio
+ n="[1.0,2)",javax.annotation,javax.inject,javax.jcr;version="[2.0,3)",j
+ avax.servlet,org.apache.sling.api;version="[2.3,3)",org.apache.sling.ap
+ i.resource;version="[2.5,3)",org.apache.sling.api.servlets;version="[2.
+ 1,3)",org.apache.sling.commons.json;version="[2.0,3)",org.apache.sling.
+ commons.osgi;version="[2.2,3)",org.apache.sling.models.annotations;vers
+ ion="[1.1,2)",org.apache.sling.settings;version="[1.3,2)",org.slf4j;ver
+ sion="[1.6,2)"
+Originally-Created-By: Apache Maven Bundle Plugin
+Provide-Capability: osgi.service;effective:=active;objectClass="com.thou
+ ghtworks.www.samples.services.SimpleService";service-name=my-sample;wor
+ ld=earth,osgi.service;effective:=active;objectClass="com.thoughtworks.w
+ ww.samples.services.TimeProviderService",osgi.service;effective:=active
+ ;objectClass="java.lang.Runnable";scheduler.expression="*/30 * * * * ?"
+ ;scheduler.concurrent=false,osgi.service;effective:=active;objectClass=
+ "javax.servlet.Servlet"
+Require-Capability: osgi.service;effective:=active;filter:="(objectClass
+ =org.apache.sling.api.resource.ResourceResolverFactory)",osgi.ee;filter
+ :="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.thoughtworks.www.samples.services.impl.S
+ impleServiceImpl.xml,OSGI-INF/com.thoughtworks.www.samples.services.imp
+ l.TimeProviderServiceImpl.xml,OSGI-INF/com.thoughtworks.www.samples.ser
+ vices.ScheduledLogger.xml,OSGI-INF/com.thoughtworks.www.samples.servlet
+ s.KxiTimeProviderServlet.xml,OSGI-INF/com.thoughtworks.www.samples.serv
+ lets.ReferencedAssetsServlet.xml
+Sling-Model-Packages: com.thoughtworks.www.samples.models
+Tool: Bnd-2.4.1.201501161923
